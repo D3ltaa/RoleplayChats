@@ -1,5 +1,5 @@
 const Discord = require ('discord.js')
-const delta = new Discord.Client({partials: ['MESSAGE', 'USER', 'REACTION']});
+const delta = new Discord.Client();
 const config = require ('./config.json')
 
 
